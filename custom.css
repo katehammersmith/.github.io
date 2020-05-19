@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color:#808B96;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  width: 20%;
+  text-align: center;
+}
+
+figcaption,h3,h5,p,label,button{
+  color:#808B96;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+
+  h1, h2, h4{color:#34495E;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+  }
+
+  .wrapper i {
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+    padding: 10px;
+  }
+  .wrapper a:nth-child(1) {
+    color: #34495E;
+  }
+  .wrapper a:nth-child(2) {
+    color: #34495E;
+  }
+  .wrapper a:nth-child(3) {
+    color: #34495E;
+  }
+  .wrapper a:nth-child(4) {
+    color: #34495E;
+  }
+
+  .gallery{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  figure{
+    width: 200px;
+    margin: 8px 0;
+    border: 1px solid #777;
+    padding:8px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    text-align: center;
+    padding: 8px 4px;
+  }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.container1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
